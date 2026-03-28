@@ -1,14 +1,14 @@
-# Redirect old WordPress URLs to new pages
-/contact-us/        /contact.html       301
-/our-services/      /our-services.html  301
-/our-services       /our-services.html  301
-/contact-us         /contact.html       301
-/about-us/          /                   301
-/about-us           /                   301
-/gallery/           /                   301
-/gallery            /                   301
-/lawn-mowing/       /our-services.html  301
-/lawn-mowing        /our-services.html  301
-/garden-design-planting/ /our-services.html 301
-/yard-maintaince/   /our-services.html  301
-/decorative-plants/ /our-services.html  301
+# Redirect old WordPress URLs to new clean URLs
+# NOTE: Do NOT redirect to .html - Cloudflare Pages handles clean URLs automatically
+/contact-us/              /contact            301
+/contact-us               /contact            301
+/our-services/            /our-services       301
+/about-us/                /                   301
+/about-us                 /                   301
+/gallery/                 /                   301
+/gallery                  /                   301
+/lawn-mowing/             /our-services       301
+/lawn-mowing              /our-services       301
+/garden-design-planting/  /our-services       301
+/yard-maintaince/         /our-services       301
+/decorative-plants/       /our-services       301
