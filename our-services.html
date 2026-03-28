@@ -41,6 +41,7 @@
   }
   </script>
 
+  <link rel="preload" as="image" href="/images/garden-design.png" fetchpriority="high" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,500;0,700;1,500;1,700&family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -513,14 +514,11 @@
   <div class="service-feature fade-up">
     <div class="service-feature-img">
       <img
-        src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Design-Ireland-768x480.png"
-        srcset="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Design-Ireland-300x188.png 300w,
-                https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Design-Ireland-768x480.png 768w,
-                https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Design-Ireland-1024x640.png 1024w"
-        sizes="(max-width: 768px) 100vw, 50vw"
+        src="/images/garden-design.png"
         alt="Garden Design and Maintenance service in Limerick Ireland"
         width="768" height="480"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
         decoding="async"
       />
       <div class="service-feature-img-overlay"></div>
@@ -548,7 +546,7 @@
   <div class="service-feature reverse fade-up">
     <div class="service-feature-img">
       <img
-        src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Block-Paving-1-768x480.png"
+        src="/images/block-paving.png"
         alt="Garden block paving driveways and patios in Ennis Clare Limerick"
         width="768" height="480"
         loading="lazy"
@@ -579,7 +577,7 @@
   <div class="service-feature fade-up">
     <div class="service-feature-img">
       <img
-        src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Artificial-Grass-768x480.png"
+        src="/images/artificial-grass.png"
         alt="Artificial grass installation in Galway Limerick Clare Ireland"
         width="768" height="480"
         loading="lazy"
@@ -610,7 +608,7 @@
   <div class="service-feature reverse fade-up">
     <div class="service-feature-img">
       <img
-        src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Deck-Building-768x480.png"
+        src="/images/deck-building.png"
         alt="Deck building in Galway Limerick Ireland composite timber"
         width="768" height="480"
         loading="lazy"
@@ -650,7 +648,7 @@
       <!-- Lawn Mowing -->
       <div class="svc-card fade-up">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/10/image016-300x188.jpg" alt="Lawn mowing service Limerick Galway Clare" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/lawn-mowing.jpg" alt="Lawn mowing service Limerick Galway Clare" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Lawn Mowing &amp; Cutting</div>
@@ -662,7 +660,7 @@
       <!-- Power Washing -->
       <div class="svc-card fade-up fade-up-delay-1">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Powerwashing-PathsPatios_-300x188.png" alt="Power washing paths patios driveways Limerick Galway" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/power-washing.png" alt="Power washing paths patios driveways Limerick Galway" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Power Washing Paths &amp; Patios</div>
@@ -674,7 +672,7 @@
       <!-- Turf Laying -->
       <div class="svc-card fade-up fade-up-delay-2">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Turf-Grass_-300x188.png" alt="Turf grass laying service Galway Limerick Clare" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/turf-grass.png" alt="Turf grass laying service Galway Limerick Clare" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Turf Grass Laying</div>
@@ -686,7 +684,7 @@
       <!-- Lawn Care -->
       <div class="svc-card fade-up">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Lawn-Care-300x188.png" alt="Lawn care treatment feeding aeration in Clare Limerick" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/lawn-care.png" alt="Lawn care treatment feeding aeration in Clare Limerick" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Lawn Care &amp; Treatment</div>
@@ -698,7 +696,7 @@
       <!-- Garden Fencing -->
       <div class="svc-card fade-up fade-up-delay-1">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Fencing-1-300x188.png" alt="Garden fencing installation Galway Limerick Ireland" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/garden-fencing.png" alt="Garden fencing installation Galway Limerick Ireland" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Garden Fencing</div>
@@ -710,7 +708,7 @@
       <!-- Garden Pruning -->
       <div class="svc-card fade-up fade-up-delay-2">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Garden-Pruning-300x188.png" alt="Garden pruning hedge trimming Limerick Clare Galway" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/garden-pruning.png" alt="Garden pruning hedge trimming Limerick Clare Galway" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Garden Pruning &amp; Hedging</div>
@@ -722,7 +720,7 @@
       <!-- Decorative Plants -->
       <div class="svc-card fade-up">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/10/image019-300x188.jpg" alt="Decorative planting seasonal flowers containers Galway Limerick" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/decorative-plants.jpg" alt="Decorative planting seasonal flowers containers Galway Limerick" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Decorative Planting</div>
@@ -734,7 +732,7 @@
       <!-- Yard Maintenance -->
       <div class="svc-card fade-up fade-up-delay-1">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/10/image018-300x188.jpg" alt="Yard maintenance and clearance Limerick Clare Galway" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/yard-maintenance.jpg" alt="Yard maintenance and clearance Limerick Clare Galway" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Yard Maintenance &amp; Clearance</div>
@@ -746,7 +744,7 @@
       <!-- Lawns & Artificial Grass combined -->
       <div class="svc-card fade-up fade-up-delay-2">
         <div class="svc-card-img">
-          <img src="https://a1landscapingsolutions.com/wp-content/uploads/2025/11/Lawns-Artificial-Grass_-300x188.png" alt="Lawns and artificial grass combined solutions Limerick Galway Clare" width="300" height="188" loading="lazy" decoding="async" />
+          <img src="/images/lawns-artificial.png" alt="Lawns and artificial grass combined solutions Limerick Galway Clare" width="300" height="188" loading="lazy" decoding="async" />
         </div>
         <div class="svc-card-body">
           <div class="svc-card-name">Lawns &amp; Artificial Grass</div>
